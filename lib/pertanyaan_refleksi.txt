@@ -1,0 +1,23 @@
+PERTANYAAN REFLEKSI
+
+1. Dari proses membuat navigasi multi halaman pada weather app, bagaimana
+   kamu memastikan alur berpindah halaman tetap efisien dan mudah dipahami pengguna?
+   --> dalam proses membuat navigasi multi halaman, saya memastikan alurnya tetap efisien
+       dan mudah dipahami, setiap halaman memiliki AppBar dengan tombol kembali sehingga
+       pengguna dapat memahami setiap perpindahan halaman
+
+2. bagaimana kamu mengelola data saat berpindah antar halaman agar tetap akurat dan tidak 
+   menyebabkan redundant code? jelaskan pendekatan atau solusi yang kamu gunakan
+   --> untuk menghindari redundant code dan menjaga agar data tetap akurat, saya menggunakan
+       pendekatan pengiriman data melalui constructor pada halaman tujuan. data seperti kota, 
+       kondisi, suhu dikirim sbg satu objek  yg sama dengan yg digunakan pada halaman utama.
+
+3. setelah menyelesaikan tugas ini, apa insight atau pelajaran paling penting yang kamu dapatkan
+   tentang pentingnya struktur navigasi dan modularisasi dalam pengembangan aplikasi flutter?
+   --> insight yang paling penting yang saya dapatkan adalah bahwa navigasi dan modularisasi 
+       merupakan 2 aspek yang sangat berpengaruh terhadap kualitas aplikasi flutter. baik Dari
+       sisi pengguna maupun pengembang. dengan memisahkan halaman dan komponen ke dalam file
+       yang terstruktur, pengembangan aplikasi jadi lebih teratur, mudah dan fleksibel ketika 
+       terjadi perubahan code. Selain itu, navigasi yang tersusun rapi memberikan pengalaman 
+       pengguna yang lebih lancar, karena alur perpindahan antar halaman menjadi jelas 
+       dan tidak membingungkan.
